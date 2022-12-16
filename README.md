@@ -1,2 +1,161 @@
 # 7570.github.io-
 Sieraden website 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>test</title>
+<link rel="stylesheet" href="mystyle.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+ <center> <p><font color="#000000"> Gratis verzending &#x2705| Achteraf betalen &#x2705 | Vandaag voor 22:00 besteld, Morgen in huis &#x2705 </p></center> 
+ 
+ 
+ <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <br>
+  <H1> VROUWEN </H1> 
+  <a href="Nieuw_oorbel.html" class="w3-bar-item w3-button">Oorbellen</a>
+ </br> 
+  <a href="Nieuw_ketting.html" class="w3-bar-item w3-button">Kettingen</a>
+  <br> 
+  <a href="Nieuw_armband.html" class="w3-bar-item w3-button">Armbanden</a>
+<br> 
+  <a href="Nieuw_ringen.html" class="w3-bar-item w3-button">Ringen</a>
+  
+  <h1> MANNEN  </H1> 
+   <a href="nieuw_armbandman.html" class="w3-bar-item w3-button">Armbanden</a>
+<br> 
+  <a href="Nieuw_ringenman.html" class="w3-bar-item w3-button">Ringen</a>
+  <br> 
+  <a href="Nieuw_horloges.html" class="w3-bar-item w3-button">Horloges</a>
+  </br> 
+</div>
+  
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+ 
+  </div>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<div class="titelbalk"> 
+	<div class="inleiding"> 
+<p class="w3-large">
+<center> 
+<p style="font-family:'Courier New'"> 
+
+    De persoonlijke sieraden zijn een leuk en origineel cadeau bij een bijzondere gelegenheid zoals een verjaardag, kraamcadeau voor moeder bij geboorte, als je gaat trouwen als cadeau voor de getuigen, bruidsmeisjes en ceremoniemeester bij jouw bruiloft, met kerst of sinterklaas als cadeau voor de feestdagen. 
+	Of misschien een stoere horloge kado voor de verjaardag van mama of papa, vaderdag of moederdag? Gelegenheden genoeg. Iedere dag is een feestje!
+	</p> </center> 
+	</div> 
+	
+	<div class="logo"> 
+		<img src="diamand.png" width=180 alt="logo" > 
+	
+	</div> 
+	
+		
+	</div> 
+</div> 
+
+<!-- <header> 
+
+<p><img src="diamand.png"  alt="logo" style="width:190px;height:190px;margin-right:20px;" >
+<img src="spreuk.html" border="10px" align="right" >
+
+</header> -->
+ 	  
+
+<section>
+  <nav>
+    <ul>
+	<footer>
+  <p> MENU  |<font color="#ffffff"> </font> SIERADEN  </p>
+<h2> Vrouwen sieraden  |    Heren sieraden </h2>
+ <li><a href="nieuw_oorbel.html"><font color="#ffffff">Oorbellen</a></li> 
+      <li><a href="Nieuw_ringen.html"><font color="#ffffff">Ringen</a></li>
+      <li><a href="Nieuw_ketting.html"><font color="#ffffff">kettingen</a></li>
+	  <li><a href="Nieuw_armband.html"><font color="#ffffff">Armbanden</a></li>
+	  <li><a href="Nieuw_armbandman.html"><font color="#ffffff">Armbanden mannen </a></li>
+	  <li><a href="Nieuw_horloges.html"><font color="#ffffff">Horloges</a></li>
+	  <li><a href="Nieuw_ringenman.html"><font color="#ffffff">Ringen mannen</a> </li> 
+	 
+	 
+    </ul>
+	</footer>
+
+  </nav>
+  
+  <article><font color="#000000">
+    <center> 
+	<a href="nieuw_oorbel.html" target="_self">
+	  <img class="rond_plaatje" src="fotooorbel.jpg" alt="plaatje, rond"></a>
+	  
+   <a href="Nieuw_armband.html" target="_self">
+	  <img class="rond_plaatje" src="armband.jpg" alt="plaatje, rond"></a>
+	  
+    <a href="Nieuw_ringen.html" target="_self">
+	  <img class="rond_plaatje" src="sterrenbeeld-ring.jpg" alt="plaatje, rond"></a>
+	    
+	  <a href="Nieuw_ketting.html" target="_self">
+	  <img class="rond_plaatje" src="kettingen.jpg" alt="plaatje, rond"></a>
+	  	
+    <a href="Nieuw_ringenman.html" target="_self">
+	  <img class="rond_plaatje" src="ringenmannen.jpg" alt="plaatje, rond"></a>
+	    
+	  <a href="Nieuw_armbandman.html" target="_self">
+	  <img class="rond_plaatje" src="armbandenman.jpg" alt="plaatje, rond"></a>
+	  
+	   <a href="Nieuw_horloges.html" target="_self">
+	  <img class="rond_plaatje" src="horloges.html" alt="plaatje, rond"></a>
+	  
+	   
+	  </center> 
+</div> 
+  </article>
+</section>
+
+
+<footer>
+  <p>2+1 GRATIS OP TOPMERKEN |<a href="Nieuw_shop.html" target="_self"><font color="#ffffff"> SHOP NU</a></p>
+</footer>
+<head><style> 
+
+.rond_plaatje {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  /*float: right;*/
+  margin-left: 25px;
+  padding: 0;
+  shape-outside: circle();
+  shape-margin: 10px;
+}
+.venster { 
+float: right; 
+} 
+
+</style>
+</body>
+</html>
